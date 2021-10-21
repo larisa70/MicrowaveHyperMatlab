@@ -12,4 +12,4 @@ as well as to obtain least squares reconstructions reported in the paper
 
 DOI: https://doi.org/10.1515/jiip-2020-0102
 
-Read file README for further details about the code.
+Read file README_MATLAB for further details about the code.
