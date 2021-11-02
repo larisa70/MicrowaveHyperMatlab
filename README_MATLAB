@@ -33,7 +33,7 @@ https://github.com/larisa70/MicrowaveHyperthermia_Matlab2020
 
 in the following steps:
 
-    Run the Matlab program
+   1.  Run the Matlab program
 
 M_Calculation/Precomputed_Inverse_Scattering_Solution_M.m
 
@@ -43,9 +43,17 @@ KernelT.mat -- with transposed kernel G
 
 Sigma.mat -- with matrix Sigma in SVD decomposition of the kernel G = U Sigma V^T
 
-    Copy data KernelT.mat and Sigma.mat obtained by the program M_Calculation/Precomputed_Inverse_Scattering_Solution_M.m
+  2.  Copy data KernelT.mat and Sigma.mat obtained by the program M_Calculation/Precomputed_Inverse_Scattering_Solution_M.m
 
 into the directory where is the program TimeSteps_Images/ImageWraper_TimeSeries.m
+
+Download and copy files 
+
+S_Matrix_16Monopole_BaseLine.mat
+ S_Matrix_16Monopole_TimeSeries.mat
+
+into the directory where is the program TimeSteps_Images/ImageWraper_TimeSeries.m
+
 
 These files are needed to run the Matlab code
 
